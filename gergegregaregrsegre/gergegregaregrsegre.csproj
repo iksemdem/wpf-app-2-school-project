@@ -1,0 +1,22 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net7.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="skip.png" />
+    <None Remove="vinyl.png" />
+    <None Remove="vinyl1.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="skip.png" />
+    <Resource Include="vinyl.png" />
+    <Resource Include="vinyl1.png" />
+  </ItemGroup>
+
+</Project>
